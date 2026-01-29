@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("https://www.supershooting.be/images/supershooting_stand_01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+
+.main-title {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #ffcc00; 
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-weight: lighter;
+}
+
+.description {
+    line-height: 1.6;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.specs-table th {
+    background-color: #ffcc00;
+    color: black;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+.specs-table td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    text-align: left;
+}
+
+.specs-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.info-button {
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #ffcc00;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.info-button:hover {
+    background-color: #ffcc00;
+    color: black;
+    transform: scale(1.05); p
+}
+.button-71 {
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
