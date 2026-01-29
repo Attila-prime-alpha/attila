@@ -23,6 +23,7 @@ main {
 
 h1, h2, h3 {
   margin-bottom: 10px;
+  color: red;
 }
 
 .image-principale,
