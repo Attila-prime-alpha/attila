@@ -5,10 +5,26 @@
 <title>Quiz - Site Attila</title>
 
 <style>
+  nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: skyblue;
+}
 
 body{
     font-family: Arial, sans-serif;
-    background: linear-gradient(120deg,#0f2027,#203a43,#2c5364);
+    background: black;
     color:white;
     text-align:center;
     padding:40px;
@@ -70,9 +86,15 @@ select, input{
 </head>
 
 <body>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="page2.html">Histoire</a>
+    <a href="page3.html">Modèles</a>
+    <a href="QCM_JavaScript.html">Quiz</a>
+</nav>
 
 <h1>Quiz sur mon site Web</h1>
-<p>Testez vos connaissances sur mon site !</p>
+
 
 <div class="quiz">
 
@@ -91,7 +113,7 @@ select, input{
 <h3>2️⃣ Quel est le thème principal du site ?</h3>
 
 <select id="q2">
-<option value="">--Choisir une réponse--</option>
+<option value="3">--Choisir une réponse--</option>
 <option value="1">Fusils d'assault</option>
 <option value="2">Fusils à pompe</option>
 <option value="3">Armes de poing</option>
@@ -140,7 +162,7 @@ let total = score;
 
 let q2 = document.getElementById("q2").value;
 
-if(q2=="3"){
+if(q2=="1"){
 total++;
 }
 
@@ -148,7 +170,7 @@ total++;
 
 let q3 = document.getElementById("q3").value.toLowerCase();
 
-if(q3=="glock knowledge"){
+if(q3=="attila"){
 total++;
 }
 
